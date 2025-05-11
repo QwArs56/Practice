@@ -1,0 +1,46 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Главная"
+url = "/"
+weight = 1
+
+[[main]]
+name = "О проекте"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Журнал"
+url = "/blog"
+weight = 4
+
+[[main]]
+name = "Ресурсы"
+url = "/contact"
+weight = 5
+
+[[main]]
+name = "Команда"
+url = "/authors"
+weight = 3
+
+
+
+
+# footer menu
+[[footer]]
+name = "О проекте"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Команда"
+url = "/authors"
+weight = 2
+
+[[footer]]
+name = "Ресурсы"
+url = "/contact"
+weight = 3
