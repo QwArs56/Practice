@@ -12,7 +12,7 @@
 
 ## Вариативная часть задания
 Тема вариативной части: C++: Tetris tutorial in C++ platform independent focused in game logic for beginners
-![Ссылка на дополнительные материалы](http://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/)
+[Ссылка на дополнительные материалы](http://javilop.com/gamedev/tetris-tutorial-in-c-platform-independent-focused-in-game-logic-for-beginners/)
 
 
 ## Ответственный по проектной (учебной) практике
