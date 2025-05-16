@@ -146,6 +146,8 @@ Tetris/
 
 <img src="https://github.com/QwArs56/Practice/tree/main/docs/images/tetris2.png" alt="demo" class="img-responsive">
 
+![demo](https://github.com/QwArs56/Practice/tree/main/docs/images/tetris2.png)
+
 Далее в файле Piece.h прописываем класс, в котором будет 3 метода
 
 1) GetBlockType: возвращает тип блока (0/1/2).
