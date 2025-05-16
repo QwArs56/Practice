@@ -1,23 +1,15 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "Из агента в охотника"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/hunter2.jpg"
 categories: ["Software"]
 author: "John Doe"
 tags: ["software", "tailwind"]
 draft: false
 ---
+Представляем вам нового главное героя Synthadry: охотник Тодд! Уверенный в себе мужчина средних лет, заблудившийся в пугающем гнетущем лесу вместе с изуродованными животными, которые так и норовят впиться в него своими клыками. Тодд грубоват и бывает колок, но не стоит забывать о том, что он все-таки закаленный опытный охотник. Узнав у своего друга Бобби про слухи о некоем неведомом большом звере с белой головой, оленьими рогами и на задних лапах, которого охотники боятся как огня. *"Кровь в жилах стынет"*, говорят они все. Но Тодд убежден, что это "чудище" лишь обычный крупный олень, что пугал людей, вставая на дыбы. Решив показать молодняку, как работают настоящие охотники, Тодд отправился за зверушкой. Именно в его шкуре вам предстоит пройти через ужасающие дебри, посмотрим, справитесь ли вы!
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-## Creative Design
-
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+<img src="/images/hunter1.jpg" alt="demo" class="img-responsive">
+<img src="/images/hunter2.jpg" alt="demo" class="img-responsive">

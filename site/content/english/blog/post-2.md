@@ -1,7 +1,7 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "От идеи до реализации: создание управления в игре."
 meta_title: ""
-description: "this is meta description"
+description: ""
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
 categories: ["Technology", "Data"]
@@ -10,14 +10,12 @@ tags: ["technology", "tailwind"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+С приходом в проект «Syndradry” первокурсников, перед ними встала задача полностью переделывать игру. Так как до этого мало кто из пришедших студентов умел работать в Unity, Blender и других программах, им предстояла задача научиться взаимодействовать с ними.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Одному из студентов была выдана задача: сделать рабочее управление в игре (ходьбу, стрельбу и рывок персонажа). Первым делом был изучен язык программирования C# и программа Unity, в которой и создавалась игра. После этого писался скрипт для ходьбы. Получалось всё не с первого раза: персонаж мог останавливаться с задержкой, неправильно работал прыжок. Методом проб и ошибок ходьба была реализована.
 
-## Creative Design
+Далее писался скрипт для стрельбы из двустволки. Изначально скрипт был реализован так, чтобы дробовик стрелял по определённой области, выпуская дробь, но позже планы поменялись. Было сделано так, чтобы двустволка стреляла по врагам в области конуса, нанося фиксированный урон всем, кто в нём находится. 
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+Последнее, что было реализовано за семестр, это рывок персонажа, Работает он очень просто. Когда персонаж идёт и нажата горячая клавиша, например «Q”, то в эту сторону делается рывок, а если нажата только горячая клавиша, то делается рывок назад.
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+Реализовано ещё далеко не всё, например, у дробовика отсутствует анимация стрельбы и перезарядка. Студентам предстоит ещё много работы, чтобы создать по-настоящему качественный продукт, которым будет приятно пользоваться.
