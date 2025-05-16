@@ -47,11 +47,11 @@ hugo server
 
 Чтобы это реализовать нужно отредактировать файл [**config/_default/menus.en.toml**](https://github.com/QwArs56/Practice/blob/main/site/config/_default/menus.en.toml):
 
-<img src="/images/params.png" alt="demo" class="img-responsive">
+<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/params.png" alt="demo" class="img-responsive">
 
 Также нужно было убрать ненужные элементы, которые предусмотренны темой, например поиск по сайту, смена темы, так как это могло отквлекать пользователя и не иметь никакого значения. Чтобы это реализовать тобы это реализовать нужно отредактировать файл [**params.toml**](https://github.com/QwArs56/Practice/blob/main/site/config/_default/params.toml):
 
-<img src="/images/menu.png" alt="demo" class="img-responsive">
+<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/menu.png" alt="demo" class="img-responsive">
 
 В дальнейшем нужно было поработать с каждой страницей и убрать ненужные элементы.
 Рассмотрим это напримере страницы с командой:
@@ -60,7 +60,7 @@ hugo server
 
  Отредактировав файл, получаем новый вид карточке для каждого участника проекта:
 
-<img src="/images/cards.png" alt="demo" class="img-responsive">
+<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/cards.png" alt="demo" class="img-responsive">
 
  По такому же принципу были отредактированы остальные страницы сайта, после чего он был полностью готов к написанию контента и наполнением его нужными изображениями.
 
@@ -130,7 +130,7 @@ Tetris/
  
 Самую длинную сторону имеет I-образная и она достигает 4 блока. Для хранения всех этих фигур нужно создатть матриу 5 на 5, где будем записывать все возможные состояния фигур. 
 
-<img src="/images/tetris1.png" alt="demo" class="img-responsive">
+<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/tetris1.png" alt="demo" class="img-responsive">
 
 Матрица 5 на 5 выбрана, так как фигуры в тетрисе нужно вращать. Например I-образная имеет всего 4 блока, то есть не имеет блока, который бы являелся центральным, чтобы вращать фигуру относительно него. Таким образом нужно взять один из двух центральных блоков в качестве центра вращения. Озоначим этот блок типом 2. Тогда имеем:
 1) Блок типа 0 - отсутсвие блока 
@@ -140,11 +140,11 @@ Tetris/
 
 Таким образом в классе нужно прописать все состояния(все 4 вариации поворота) для всех 7 фигур. 
 
-<img src="/images/states.png" alt="demo" class="img-responsive">
+<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/states.png" alt="demo" class="img-responsive">
 
 После того, как это было сделано, нужно правильно разместить новый падающий тетрамино на игровом поле. Он должен появляться на самой первой строчке игрового поля, то есть марица с блоком должна уходить чуть выше, чтобы заполненные блоки(типа 1 или 2) появлялись на самом верху, а не ниже. Для этого нужно создать отдельный класс, где будут прописаны отступы для каждого блока при кадом состоянии. В этом классе нужно оказать отступ в координатах X и YL:
 
-<img src="/images/tetris2.png" alt="demo" class="img-responsive">
+<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/tetris2.png" alt="demo" class="img-responsive">
 
 Далее в файле Piece.h прописываем класс, в котором будет 3 метода
 
