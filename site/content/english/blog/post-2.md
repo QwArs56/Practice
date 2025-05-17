@@ -3,7 +3,7 @@ title: "От идеи до реализации: создание управле
 meta_title: ""
 description: ""
 date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/programming.jpg"
 categories: ["Technology", "Data"]
 author: "Sam Wilson"
 tags: ["technology", "tailwind"]
