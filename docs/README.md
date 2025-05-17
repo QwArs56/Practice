@@ -47,11 +47,11 @@ hugo server
 
 Чтобы это реализовать нужно отредактировать файл [**config/_default/menus.en.toml**](https://github.com/QwArs56/Practice/blob/main/site/config/_default/menus.en.toml):
 
-<img src="images/params.png" alt="demo" class="img-responsive">
+<img src="images/menu.png" alt="demo" class="img-responsive">
 
 Также нужно было убрать ненужные элементы, которые предусмотренны темой, например поиск по сайту, смена темы, так как это могло отквлекать пользователя и не иметь никакого значения. Чтобы это реализовать тобы это реализовать нужно отредактировать файл [**params.toml**](https://github.com/QwArs56/Practice/blob/main/site/config/_default/params.toml):
 
-<img src="images/menu.png" alt="demo" class="img-responsive">
+<img src="images/params.png" alt="demo" class="img-responsive">
 
 В дальнейшем нужно было поработать с каждой страницей и убрать ненужные элементы.
 Рассмотрим это напримере страницы с командой:
