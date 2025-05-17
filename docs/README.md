@@ -140,13 +140,13 @@ Tetris/
 
 Таким образом в классе нужно прописать все состояния(все 4 вариации поворота) для всех 7 фигур. 
 
-<img src="https://github.com/QwArs56/Practice/tree/main/docs/images/states.png" alt="demo" class="img-responsive">
+<img src="images/states.png" alt="demo" class="img-responsive">
 
 После того, как это было сделано, нужно правильно разместить новый падающий тетрамино на игровом поле. Он должен появляться на самой первой строчке игрового поля, то есть марица с блоком должна уходить чуть выше, чтобы заполненные блоки(типа 1 или 2) появлялись на самом верху, а не ниже. Для этого нужно создать отдельный класс, где будут прописаны отступы для каждого блока при кадом состоянии. В этом классе нужно оказать отступ в координатах X и Y:
 
 <img src="https://github.com/QwArs56/Practice/tree/main/docs/images/tetris2.png" alt="demo" class="img-responsive">
 
-[demo](https://github.com/QwArs56/Practice/tree/main/docs/images/tetris2.png)
+![demo](images/tetris2.png)
 
 Далее в файле Piece.h прописываем класс, в котором будет 3 метода
 
