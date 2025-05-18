@@ -1,0 +1,6 @@
+tetris/.vscode/
+Backup/
+tetris/Release/*
+tetris/Debug/*
+!tetris/Debug/SDL.dll
+!tetris/Release/SDL.dll
